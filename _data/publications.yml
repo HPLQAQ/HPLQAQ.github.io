@@ -1,6 +1,6 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+  - title: "SAM-Deblur: Let Segment Anything Boost Image Deblurring"
     authors: <strong>Siwei Li†</strong>, Mingxuan Liu†, Yating Zhang, Shu Chen, Haoxiang Li, Hong Chen*, Zifei Dou*(†Co-first authors)(*Corresponding authors)
     conference_short: ICASSP
     conference: International Conference on Acoustics, Speech and Signal Processing <strong>(ICASSP)</strong>, 2024.
