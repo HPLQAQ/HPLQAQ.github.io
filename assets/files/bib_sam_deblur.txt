@@ -1,0 +1,12 @@
+@inproceedings{Li2023SAMDeblur,
+  author       = {Siwei Li and
+                  Mingxuan Liu and 
+                  Yating Zhang and 
+                  Shu Chen and 
+                  Haoxiang Li and 
+                  Hong Chen and 
+                  Zifei Dou},
+  title        = {SAM-Deblur: Let Segment Anything Boost Image Deblurring},
+  booktitle    = {International Conference on Acoustics, Speech and Signal Processing - {ICASSP} 2024},
+  year         = {2024}
+}
