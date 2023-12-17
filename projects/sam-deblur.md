@@ -23,8 +23,10 @@ Image deblurring is a critical task in the field of image restoration, aiming to
 ---
 
 ## Background
-<img src="/assets/img/teaser_sam_deblur.png" alt="Mode Collapse" style="width: 50%;">
-The "mode collapse" in NAFNet: NAFNet trained on the GoPro dataset [1] may output anomalous pixel regions during testing on the REDS dataset [2] (indicated by the red boxes). This problem can be effectively solved by proposed SAM-Deblur.
+<div style="width: 50%; margin: auto; text-align: center;">
+    <img src="/assets/img/teaser_sam_deblur.png" alt="Mode Collapse" style="width: 100%; height: auto;">
+    <p>The "mode collapse" in NAFNet: NAFNet trained on the GoPro dataset may output anomalous pixel regions during testing on the REDS dataset (indicated by the red boxes). This problem can be effectively solved by proposed SAM-Deblur.</p>
+</div>
 
 ## Citation
 ```
