@@ -12,7 +12,7 @@ canonical: https://minimal-light-theme.yliu.me/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-# google_scholar: https://scholar.google.com/
+google_scholar: https://scholar.google.com/citations?user=VjCBO70AAAAJ
 # cv_link: assets/files/curriculum_vitae.pdf
 github_link: https://github.com/HPLQAQ
 # linkedin: https://www.linkedin.com/
@@ -40,10 +40,15 @@ font: "Serif" # or "Sans Serif"
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
 remote_theme: HPLQAQ/HPLQAQ.github.io
 
-markdown: kramdown
+links:
+  - title: About Me
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Projects
+    url: /projects/
 
-include: 
-  - project/
+markdown: kramdown
 
 # The following files will be removed from the generated website.
 exclude:
