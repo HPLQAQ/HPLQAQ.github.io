@@ -4,9 +4,10 @@
                   Yating Zhang and 
                   Shu Chen and 
                   Haoxiang Li and 
-                  Hong Chen and 
-                  Zifei Dou},
+                  Zifei Dou and 
+                  Hong Chen},
   title        = {SAM-Deblur: Let Segment Anything Boost Image Deblurring},
-  booktitle    = {International Conference on Acoustics, Speech and Signal Processing - {ICASSP} 2024},
+  booktitle    = {ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
   year         = {2024}
+  organization = {IEEE}
 }

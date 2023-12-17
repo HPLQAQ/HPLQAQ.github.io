@@ -4,7 +4,8 @@ permalink: /projects/sam-deblur
 
 title: "SAM-Deblur: Let Segment Anything Boost Image Deblurring"
 authors:
-    "[Siwei Li](https://hplqaq.github.io/)<sup>12</sup>, Mingxuan Liu<sup>3</sup>, Yating Zhang<sup>1</sup>, Shu Chen<sup>1</sup>, Haoxiang Li<sup>3</sup>, Zifei Dou<sup>1</sup>, Hong Chen<sup>4</sup>"
+    "<a href='https://hplqaq.github.io/'>Siwei Li</a>, 
+    Mingxuan Liu<sup>3</sup>, Yating Zhang<sup>1</sup>, Shu Chen<sup>1</sup>, Haoxiang Li<sup>3</sup>, Zifei Dou<sup>1</sup>, Hong Chen<sup>4</sup>"
 affiliations:
     "<sup>1</sup>Beijing Xiaomi Mobile Software Co., Ltd.<br><sup>2</sup>Department of Electronic Engineering, Tsinghua University<br><sup>3</sup>Department of Biomedical Engineering, Tsinghua University<br><sup>4</sup>School of Integrated Circuits, Tsinghua University"
 paper: https://arxiv.org/abs/2309.02270
@@ -36,10 +37,11 @@ Image deblurring is a critical task in the field of image restoration, aiming to
                   Yating Zhang and 
                   Shu Chen and 
                   Haoxiang Li and 
-                  Hong Chen and 
-                  Zifei Dou},
+                  Zifei Dou and 
+                  Hong Chen},
   title        = {SAM-Deblur: Let Segment Anything Boost Image Deblurring},
-  booktitle    = {International Conference on Acoustics, Speech and Signal Processing - {ICASSP} 2024},
+  booktitle    = {ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
   year         = {2024}
+  organization = {IEEE}
 }
 ```

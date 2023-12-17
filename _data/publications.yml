@@ -7,6 +7,6 @@ main:
     pdf: https://arxiv.org/abs/2309.02270.pdf
     code: https://github.com/HPLQAQ/SAM-Deblur
     page: /projects/sam-deblur
-    bibtex: /assets/files/bib_sam_deblur.txt
-    image: /assets/img/teaser_sam_deblur.png
+    bibtex: /projects/sam-deblur.assets/bib_sam_deblur.txt
+    image: /projects/sam-deblur.assets/teaser_sam_deblur.png
     notes: Accepted
