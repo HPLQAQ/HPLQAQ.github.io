@@ -4,9 +4,9 @@ permalink: /projects/sam-deblur
 
 title: "SAM-Deblur: Let Segment Anything Boost Image Deblurring"
 authors:
-    "Siwei Li<sup>12</sup>, Mingxuan Liu, Yating Zhang, Shu Chen, Haoxiang Li, Zifei Dou, Hong Chen"
+    "Siwei Li<sup>12</sup>, Mingxuan Liu<sup>3</sup>, Yating Zhang<sup>1</sup>, Shu Chen<sup>1</sup>, Haoxiang Li<sup>3</sup>, Zifei Dou<sup>1</sup>, Hong Chen<sup>4</sup>"
 affiliations:
-    "Beijing Xiaomi Mobile Software Co., Ltd.<br>Department of Electronic Engineering, Tsinghua University<br>Department of Biomedical Engineering, Tsinghua University<br>School of Integrated Circuits, Tsinghua University"
+    "<sup>1</sup>Beijing Xiaomi Mobile Software Co., Ltd.<br><sup>2</sup>Department of Electronic Engineering, Tsinghua University<br><sup>3</sup>Department of Biomedical Engineering, Tsinghua University<br><sup>4</sup>School of Integrated Circuits, Tsinghua University"
 paper: https://arxiv.org/abs/2309.02270
 code: https://github.com/HPLQAQ/SAM-Deblur
 ---
@@ -23,19 +23,8 @@ Image deblurring is a critical task in the field of image restoration, aiming to
 ---
 
 ## Background
-!['Mode Collapse'](/assets/img/teaser_sam_deblur.png)
-
-## Objective
-TBD
-
-## Key Ideas
-TBD
-
-## Table: Comparison of Our Methods
-TBD
-
-## Significance
-TBD
+<img src="/assets/img/teaser_sam_deblur.png" alt="Mode Collapse" style="width: 50%;">
+The "mode collapse" in NAFNet: NAFNet trained on the GoPro dataset [1] may output anomalous pixel regions during testing on the REDS dataset [2] (indicated by the red boxes). This problem can be effectively solved by proposed SAM-Deblur.
 
 ## Citation
 ```
