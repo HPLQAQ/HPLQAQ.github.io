@@ -43,8 +43,8 @@ remote_theme: HPLQAQ/HPLQAQ.github.io
 markdown: kramdown
 
 include: 
-  - project
-  
+  - project/
+
 # The following files will be removed from the generated website.
 exclude:
   - Gemfile
