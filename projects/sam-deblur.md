@@ -31,18 +31,28 @@ Image deblurring is a critical task in the field of image restoration, aiming to
 
 ---
 
-## Background
+## Introduction
 
 <div style="width: 50%; margin: auto; text-align: center;">
     <img src="./sam-deblur.assets/teaser_sam_deblur.png" alt="Mode Collapse" style="width: 100%; height: auto;">
-    <p>The "mode collapse" in NAFNet: NAFNet trained on the GoPro dataset may output anomalous pixel regions during testing on the REDS dataset (indicated by the red boxes). This problem can be effectively solved by proposed SAM-Deblur.</p>
+    <p><strong>The "mode collapse" in NAFNet: NAFNet trained on the GoPro dataset may output anomalous pixel regions during testing on the REDS dataset (indicated by the red boxes). This problem can be effectively solved by proposed SAM-Deblur.</strong></p>
 </div>
+<br>
 
-The field of image deblurring faces a significant challenge: non-uniform blurring leads to an ill-posed problem, which severely limits the generalization capabilities of existing deblurring models. This issue is evident in scenarios where state-of-the-art models, such as NAFNet, trained on specific datasets like GoPro, fail to perform adequately on out-of-distribution datasets, leading to problems which we call "mode collapse."
+The field of image deblurring faces a significant challenge: **non-uniform blurring leads to an ill-posed problem, which severely limits the generalization capabilities of existing deblurring models**. This issue is evident in scenarios where state-of-the-art models, such as NAFNet, trained on specific datasets like GoPro, fail to perform adequately on out-of-distribution datasets, leading to problems which we call "mode collapse."
 
-The integration of semantic-aware priors comes as a way to address this challenge. This brings us to the Segment Anything Model (SAM), developed by META. SAM is a robust model trained on the extensive SA-1B dataset. With training on over 10 billion masks and 11 million images, SAM is capable of performing accurate segmentation on a wide range of images, including those of suboptimal quality. Its robustness in handling blurred images makes it an ideal candidate for providing structural priors for deblurring tasks.
+**The integration of semantic-aware priors comes as a way to address this challenge. This brings us to the Segment Anything Model (SAM), developed by META.** SAM is a robust model trained on the extensive SA-1B dataset. With training on over 10 billion masks and 11 million images, SAM is capable of performing accurate segmentation on a wide range of images, including those of suboptimal quality. Its robustness in handling blurred images makes it an ideal candidate for providing structural priors for deblurring tasks.
 
-Aiming to regularize the solution space for latent sharp images in deblurring tasks and thereby enhance the generalization performance of existing models, we propose the SAM-Deblur framework. This pioneering effort leverages SAM-generated priors to address the challenges of non-uniform blurring in image deblurring.
+Aiming to regularize the solution space for latent sharp images in deblurring tasks and thereby enhance the generalization performance of existing models, we propose the **SAM-Deblur** framework. This pioneering effort **leverages SAM-generated priors to address the challenges of non-uniform blurring in image deblurring**.
+
+## Method
+
+<div style="width: 80%; margin: auto; text-align: center;">
+    <img src="./sam-deblur.assets/SAM-Deblur-pipeline.webp" alt="SAM-Deblur-pipeline" style="width: 100%; height: auto;">
+</div>
+<br>
+
+**The SAM-Deblur Pipeline is visualized above.** It begins with segmenting images using SAM. For model training, pre-deblurring and **a proposed mask dropout** technique is applied to enhance robustness. **The MAP Unit** then processes these images and masks, integrating the images and structural priors. The output of the MAP Unit, concatenated with original image, serves as the input for NAFNet in the final deblurring stage. This pipeline ensures robust interaction between the image data and SAM-generated segmentation masks, leading to improved deblurring performance.
 
 ## Citation
 ```
