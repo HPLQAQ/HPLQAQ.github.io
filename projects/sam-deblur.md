@@ -6,10 +6,7 @@ title: SAM-Deblur: Let Segment Anything Boost Image Deblurring
 authors:
     Siwei Li<sup>12</sup>, Mingxuan Liu, Yating Zhang, Shu Chen, Haoxiang Li, Zifei Dou, Hong Chen
 affiliations:
-    Beijing Xiaomi Mobile Software Co., Ltd.<br>
-    Department of Electronic Engineering, Tsinghua University<br>
-    Department of Biomedical Engineering, Tsinghua University<br>
-    School of Integrated Circuits, Tsinghua University
+    Beijing Xiaomi Mobile Software Co., Ltd.<br>Department of Electronic Engineering, Tsinghua University<br>Department of Biomedical Engineering, Tsinghua University<br>School of Integrated Circuits, Tsinghua University
 paper: https://arxiv.org/abs/2309.02270
 code: https://github.com/HPLQAQ/SAM-Deblur
 ---
