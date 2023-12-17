@@ -4,10 +4,18 @@ permalink: /projects/sam-deblur
 
 title: "SAM-Deblur: Let Segment Anything Boost Image Deblurring"
 authors:
-    "<a href='https://hplqaq.github.io/'>Siwei Li</a>, 
-    Mingxuan Liu<sup>3</sup>, Yating Zhang<sup>1</sup>, Shu Chen<sup>1</sup>, Haoxiang Li<sup>3</sup>, Zifei Dou<sup>1</sup>, Hong Chen<sup>4</sup>"
+    "<a href='https://hplqaq.github.io/'>Siwei Li</a><sup>12</sup>, 
+    <a href='https://arktis2022.github.io/'>Mingxuan Liu</a><sup>3</sup>, 
+    <a href='https://hplqaq.github.io/projects/sam-deblur'>Yating Zhang</a><sup>1</sup>, 
+    <a href='https://hplqaq.github.io/projects/sam-deblur'>Shu Chen</a><sup>1</sup>, 
+    <a href='https://lihaoxiang-20.github.io/'>Haoxiang Li</a><sup>3</sup>, 
+    <a href='https://hplqaq.github.io/projects/sam-deblur'>Zifei Dou</a><sup>1</sup>, 
+    <a href='http://hongchen.ime.tsinghua.edu.cn/'>Hong Chen</a><sup>4</sup>"
 affiliations:
-    "<sup>1</sup>Beijing Xiaomi Mobile Software Co., Ltd.<br><sup>2</sup>Department of Electronic Engineering, Tsinghua University<br><sup>3</sup>Department of Biomedical Engineering, Tsinghua University<br><sup>4</sup>School of Integrated Circuits, Tsinghua University"
+    "<sup>1</sup>Beijing Xiaomi Mobile Software Co., Ltd.<br>
+    <sup>2</sup>Department of Electronic Engineering, Tsinghua University<br>
+    <sup>3</sup>Department of Biomedical Engineering, Tsinghua University<br>
+    <sup>4</sup>School of Integrated Circuits, Tsinghua University"
 paper: https://arxiv.org/abs/2309.02270
 code: https://github.com/HPLQAQ/SAM-Deblur
 ---
@@ -25,7 +33,7 @@ Image deblurring is a critical task in the field of image restoration, aiming to
 
 ## Background
 <div style="width: 50%; margin: auto; text-align: center;">
-    <img src="./sam-deblur.assets/img/teaser_sam_deblur.png" alt="Mode Collapse" style="width: 100%; height: auto;">
+    <img src="./sam-deblur.assets/teaser_sam_deblur.png" alt="Mode Collapse" style="width: 100%; height: auto;">
     <p>The "mode collapse" in NAFNet: NAFNet trained on the GoPro dataset may output anomalous pixel regions during testing on the REDS dataset (indicated by the red boxes). This problem can be effectively solved by proposed SAM-Deblur.</p>
 </div>
 
