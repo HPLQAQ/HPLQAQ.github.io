@@ -1,6 +1,6 @@
 ---
 layout: project_page
-permalink: /
+permalink: /projects/sam-deblur
 
 title: On Computable Numbers, with an Application to the Entscheidungsproblem
 authors:
