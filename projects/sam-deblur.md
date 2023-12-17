@@ -47,7 +47,7 @@ Aiming to regularize the solution space for latent sharp images in deblurring ta
 
 ## Method
 
-<div style="width: 80%; margin: auto; text-align: center;">
+<div style="width: 85%; margin: auto; text-align: center;">
     <img src="./sam-deblur.assets/SAM-Deblur-pipeline.webp" alt="SAM-Deblur-pipeline" style="width: 100%; height: auto;">
 </div>
 <br>
@@ -56,7 +56,9 @@ Aiming to regularize the solution space for latent sharp images in deblurring ta
 
 ## Results
 
-Best results are highlighted in bold. **w/o SAM**: Not using SAM priors, **CAT**: concatenation method, **MAP**: Using SAM-Deblur framework w/o mask dropout, **Ours**: Using SAM-Deblur framework.
+Best results are highlighted in bold. **w/o SAM**: Not using SAM priors, **CAT**: concatenation method, **MAP**: Using SAM-Deblur framework w/o mask dropout, **Ours**: Using SAM-Deblur framework. 
+
+**Mode Collapse Rate** (MCR) is calculated using a threshold-based method. Specifically, when $PSNR(I_bm, I_gt) - PSNR(I_dm, I_gt) > 3$ (where $I_gt$ is the ground truth), we consider the model to have undergone "mode collapse". A lower MCR suggests stronger generalization capabilities of the model.
 
 | Methods | GoPro (PSNR↑ / SSIM↑) | RealBlurJ (PSNR↑ / SSIM↑ / MCR↓) | REDS (PSNR↑ / SSIM↑ / MCR↓) | ReLoBlur (PSNR↑ / SSIM↑ / MCR↓) |
 |---------|-----------------------|----------------------------------|-----------------------------|---------------------------------|
