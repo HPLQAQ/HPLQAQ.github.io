@@ -1,6 +1,6 @@
 {% assign show_publications = site.data.publications.main.size > 0 %}
 
-{% if show_conference or show_journal %}
+{% if show_publications %}
 
 <h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
