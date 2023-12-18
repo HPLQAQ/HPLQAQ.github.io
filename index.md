@@ -24,10 +24,6 @@ I am always open to communication and look forward to opportunities for collabor
 
 {% include_relative _includes/services.md %}
 
-{% comment %}
-{% include_relative _includes/services.md %}
-{% endcomment %}
-
 ## Links
 
 GeWu-Lab: [GeWu-Lab, Gaoling School of Artificial Intelligence, Renmin University of China](https://gewu-lab.github.io)  
