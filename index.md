@@ -22,6 +22,8 @@ I am always open to communication and look forward to opportunities for collabor
 
 {% include_relative _includes/publications.md %}
 
+{% include_relative _includes/services.md %}
+
 {% comment %}
 {% include_relative _includes/services.md %}
 {% endcomment %}

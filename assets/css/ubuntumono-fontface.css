@@ -2,7 +2,7 @@
   font-family: 'Ubuntu Mono';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/UbuntuMono-Regular.woff2') format('woff2');
+  src: url('../fonts/UbuntuMono-Regular.ttf') format('ttf');
   font-display: swap;
 }
   
@@ -10,7 +10,7 @@
   font-family: 'Ubuntu Mono';
   font-style: italic;
   font-weight: normal;
-  src: url('../fonts/UbuntuMono-Italic.woff2') format('woff2');
+  src: url('../fonts/UbuntuMono-Italic.ttf') format('ttf');
   font-display: swap;
 }
   
@@ -18,7 +18,7 @@
   font-family: 'Ubuntu Mono';
   font-style: normal;
   font-weight: bold;
-  src: url('../fonts/UbuntuMono-Bold.woff2') format('woff2');
+  src: url('../fonts/UbuntuMono-Bold.ttf') format('ttf');
   font-display: swap;
 }
   
@@ -26,6 +26,6 @@
   font-family: 'Ubuntu Mono';
   font-style: italic;
   font-weight: bold;
-  src: url('../fonts/UbuntuMono-BoldItalic.woff2') format('woff2');
+  src: url('../fonts/UbuntuMono-BoldItalic.ttf') format('ttf');
   font-display: swap;
 }
