@@ -2,7 +2,7 @@
   font-family: 'Crimson Pro';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/CrimsonPro-Regular.woff2') format('woff2');
+  src: url('../fonts/CrimsonPro-Regular.ttf') format('ttf');
   font-display: swap;
 }
   
@@ -10,7 +10,7 @@
   font-family: 'Crimson Pro';
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/CrimsonPro-Medium.woff2') format('woff2');
+  src: url('../fonts/CrimsonPro-Medium.ttf') format('ttf');
   font-display: swap;
 }
   
@@ -18,7 +18,7 @@
   font-family: 'Crimson Pro';
   font-style: normal;
   font-weight: 600;
-  src: url('../fonts/CrimsonPro-SemiBold.woff2') format('woff2');
+  src: url('../fonts/CrimsonPro-SemiBold.ttf') format('ttf');
   font-display: swap;
 }
 
@@ -26,7 +26,7 @@
   font-family: 'Crimson Pro';
   font-style: italic;
   font-weight: 500;
-  src: url('../fonts/CrimsonPro-Italic.woff2') format('woff2');
+  src: url('../fonts/CrimsonPro-Italic.ttf') format('ttf');
   font-display: swap;
 }
 
@@ -34,6 +34,6 @@
   font-family: 'Crimson Pro';
   font-style: italic;
   font-weight: 600;
-  src: url('../fonts/CrimsonPro-SemiBoldItalic.woff2') format('woff2');
+  src: url('../fonts/CrimsonPro-SemiBoldItalic.ttf') format('ttf');
   font-display: swap;
 }
