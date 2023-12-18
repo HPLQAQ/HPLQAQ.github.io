@@ -8,7 +8,7 @@ email: hplv@foxmail.com
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords:  academic personal homepage
 description: Academic personal homepage for Siwei Li.
-canonical: https://minimal-light-theme.yliu.me/
+canonical: https://hplqaq.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
@@ -39,14 +39,6 @@ font: "Sans Serif" # "Serif" or "Sans Serif"
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
 remote_theme: HPLQAQ/HPLQAQ.github.io
-
-links:
-  - title: About Me
-    url: /
-  - title: Publications
-    url: /publications/
-  - title: Projects
-    url: /projects/
 
 markdown: kramdown
 
