@@ -4,7 +4,7 @@ main:
     authors: <strong>Siwei Li†</strong>, Mingxuan Liu†, Yating Zhang, Shu Chen, Haoxiang Li, Hong Chen*, Zifei Dou*(†Co-first authors)(*Corresponding authors)
     conference_short: ICASSP
     conference: IEEE International Conference on Acoustics, Speech and Signal Processing <strong>(ICASSP)</strong>, 2024.
-    pdf: https://arxiv.org/abs/2309.02270.pdf
+    pdf: https://arxiv.org/pdf/2309.02270v2.pdf
     code: https://github.com/HPLQAQ/SAM-Deblur
     page: /projects/sam-deblur
     bibtex: /projects/sam-deblur.assets/bib_sam_deblur.txt
