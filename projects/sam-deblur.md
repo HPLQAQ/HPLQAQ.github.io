@@ -16,7 +16,7 @@ affiliations:
     <sup>2</sup>Department of Electronic Engineering, Tsinghua University<br>
     <sup>3</sup>Department of Biomedical Engineering, Tsinghua University<br>
     <sup>4</sup>School of Integrated Circuits, Tsinghua University"
-paper: https://arxiv.org/abs/2309.02270
+paper: https://arxiv.org/abs/2309.02270v2
 code: https://github.com/HPLQAQ/SAM-Deblur
 ---
 
